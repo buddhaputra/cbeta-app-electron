@@ -22,19 +22,19 @@
     "electron:build-linux": "electron-builder build --dir -c ./electron-builder.config.json"
   },
   "dependencies": {
-    "@capacitor-community/electron": "^5.0.0",
-    "chokidar": "~3.5.3",
-    "electron-is-dev": "~2.0.0",
-    "electron-serve": "~1.1.0",
-    "electron-unhandled": "~4.0.1",
-    "electron-updater": "^5.3.0",
+    "@capacitor-community/electron": "^5.0.1",
+    "chokidar": "~3.6.0",
+    "electron-is-dev": "~3.0.1",
+    "electron-serve": "~2.0.0",
+    "electron-unhandled": "~5.0.0",
+    "electron-updater": "^6.2.1",
     "electron-window-state": "^5.0.3"
   },
   "devDependencies": {
-    "electron": "^26.2.2",
-    "electron-builder": "~23.6.0",
+    "electron": "^31.2.0",
+    "electron-builder": "~24.13.3",
     "electron-rebuild": "^3.2.9",
-    "typescript": "^5.0.4"
+    "typescript": "^5.5.3"
   },
   "keywords": [
     "capacitor",
