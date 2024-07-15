@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/buddhaputra/cbeta-app-electron.git"
   },
   "license": "MIT",
   "main": "build/src/index.js",
@@ -19,7 +19,7 @@
     "electron:pack": "npm run build && electron-builder build --dir -c ./electron-builder.config.json",
     "electron:make": "npm run build && electron-builder build -c ./electron-builder.config.json -p always",
     "electron:build": "electron-builder build --dir -c ./electron-builder.config.json",
-    "electron:build-linux": "electron-builder build --dir -c ./electron-builder.config.json --linux AppImage --publish never"
+    "electron:build-linux": "electron-builder build --dir -c ./electron-builder.config.json"
   },
   "dependencies": {
     "@capacitor-community/electron": "^5.0.0",
