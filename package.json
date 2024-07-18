@@ -20,7 +20,8 @@
     "electron:pack": "npm run build && electron-builder build --dir -c ./electron-builder.config.json",
     "electron:make": "npm run build && electron-builder build -c ./electron-builder.config.json -p always",
     "electron:build-linux": "npm run build && electron-builder build -c ./electron-builder.config.json -p never --linux",
-    "electron:build-win": "npm run build && electron-builder build -c ./electron-builder.config.json -p never --win"
+    "electron:build-win": "npm run build && electron-builder build -c ./electron-builder.config.json -p never --win",
+    "electron:build-mac": "npm run build && electron-builder build -c ./electron-builder.config.json -p never --mac"
   },
   "dependencies": {
     "@capacitor-community/electron": "^5.0.1",
